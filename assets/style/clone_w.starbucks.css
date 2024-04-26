@@ -1,0 +1,304 @@
+body{
+    background-color: #ffff;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.imagem-banner{
+    width: 1440px;
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+ img {
+    width: 720px;
+    height: 420px;
+}
+
+.titulo{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1E3932;
+  margin-bottom: 20px;
+
+ 
+}
+
+.descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E3932;
+    font-size: 16PX;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#menu {
+   display: flex;
+   flex-direction: row;
+    width: 1440px;
+    height: 101px;
+    background-color:#D4E9E2;
+    margin-bottom: 32px;
+    text-align: center;
+    justify-content: space-between;
+}
+#menu-esquerda{
+display: flex;
+flex-direction: row;
+width: 700px;
+height: 100px;
+align-items: center;
+
+
+}
+
+#logo-starbucks{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+}
+
+li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E3932;
+    font-weight: 800;
+    transition: 300ms;
+    letter-spacing: 2px;
+}
+
+
+
+a:hover{
+    
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #298a70;
+        font-weight: 800;
+        transition: 300ms;
+    
+}
+#menu-direita{
+    display:flex;
+    flex-direction: row;
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+}
+.texto-encontre-loja{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E3932;
+font-weight: 800;
+}
+#logo-historia {
+    width: 120px;
+    height: 47px;
+    margin-right: 30px;
+
+}
+button{
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color:  transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E3932;
+    transition: 300ms;
+   
+
+}
+
+
+button:hover{
+    
+        width: 110px;
+        height: 30px;
+        border-radius: 30px;
+        border-color: #1E3932;
+        cursor: pointer;
+        background-color:  #1E3932;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffff;
+        transition: 300ms;
+        box-shadow: 45px 13px 47px -24px rgba(0,0,0,0.86);
+        -webkit-box-shadow: 45px 13px 47px -24px rgba(0,0,0,0.86);
+        -moz-box-shadow: 45px 13px 47px -24px rgba(0,0,0,0.86);
+}
+
+#banner {
+
+    width: 1440px;
+    height: 331px;
+    background-color:#D9D9D9;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+
+#destaque{
+  
+    width: 1440px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D4E9E2;
+    margin-bottom: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+   
+ #bloco-1{
+    display: flex;
+    flex-direction: row;
+ } 
+#propaganda_texto{
+    display: flex ;
+    flex-direction: column;
+    width: 720px;
+    height: 420px;
+    background-color: #D4E9E2;
+    margin-bottom: 50px;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#propaganda_imagem{
+    width: 720px;
+    height: 420px;
+    background-color: #D9D9D9;
+    margin-bottom: 32px;
+}
+
+#bloco-2{
+    display: flex;
+    flex-direction: row;
+}
+
+#propaganda_imagem1{
+   
+    width: 720px;
+    height: 420px;
+    background-color: #D9D9D9;
+    margin-bottom: 32px;
+    
+}
+
+#propaganda_texto1{
+    display: flex ;
+    flex-direction: column;
+    width: 720px;
+    height: 420px;
+    background-color: #D4E9E2;
+    margin-bottom: 32px;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+#bloco-3{
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 32px;
+}
+#propaganda_texto2{
+    display: flex ;
+    flex-direction: column;
+    width: 720px;
+    height: 420px;
+    background-color: #D4E9E2;
+    margin-bottom: 32px;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#propaganda_imagem2{
+    width: 720px;
+    height: 420px;
+    background-color: #D9D9D9;
+    margin-bottom: 32px;
+}
+
+
+
+#rodape{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 70px;
+    background-color: #ffff;
+    margin-bottom: 40px;
+    align-content: stretch;
+    justify-content: center;
+}
+li{
+    margin-left: 10px ;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row; 
+    width: 1909px;
+    height: 662px;
+    background-color: #ffff;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    text-align: "left";
+    
+
+}
+
+
+#sobre{
+width: 720px;
+height: 420px;
+}
+
+#carreia{
+width: 720px;
+height: 420px;
+}
+#impactosocial{
+width: 720px;
+height: 420px;
+
+}
+
+#starbucksRewards{
+width: 720px;
+height: 420px;
+    
+
+}
