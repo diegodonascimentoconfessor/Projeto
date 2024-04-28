@@ -1,31 +1,32 @@
-body{
+body {
     background-color: #ffff;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-.imagem-banner{
+
+.imagem-banner {
     width: 1440px;
     height: 360px;
     margin-bottom: 20px;
 }
 
- img {
+img {
     width: 720px;
     height: 420px;
 }
 
-.titulo{
-  font-family: Arial, Helvetica, sans-serif;
-  color: #1E3932;
-  margin-bottom: 20px;
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E3932;
+    margin-bottom: 20px;
 
- 
+
 }
 
-.descricao{
+.descricao {
     font-family: Arial, Helvetica, sans-serif;
     color: #1E3932;
     font-size: 16PX;
@@ -35,36 +36,37 @@ body{
 }
 
 #menu {
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
     width: 1440px;
     height: 101px;
-    background-color:#D4E9E2;
+    background-color: #D4E9E2;
     margin-bottom: 32px;
     text-align: center;
     justify-content: space-between;
 }
-#menu-esquerda{
-display: flex;
-flex-direction: row;
-width: 700px;
-height: 100px;
-align-items: center;
+
+#menu-esquerda {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 100px;
+    align-items: center;
 
 
 }
 
-#logo-starbucks{
+#logo-starbucks {
     width: 40px;
     height: 40px;
     margin-right: 30px;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-   
+
 }
 
 li {
@@ -72,7 +74,7 @@ li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #1E3932;
@@ -83,17 +85,18 @@ a{
 
 
 
-a:hover{
-    
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #298a70;
-        font-weight: 800;
-        transition: 300ms;
-    
+a:hover {
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #298a70;
+    font-weight: 800;
+    transition: 300ms;
+
 }
-#menu-direita{
-    display:flex;
+
+#menu-direita {
+    display: flex;
     flex-direction: row;
     width: 700px;
     height: 100px;
@@ -103,60 +106,63 @@ a:hover{
 
 
 }
-.texto-encontre-loja{
+
+.texto-encontre-loja {
     font-family: Arial, Helvetica, sans-serif;
     color: #1E3932;
-font-weight: 800;
+    font-weight: 800;
 }
+
 #logo-historia {
     width: 120px;
     height: 47px;
     margin-right: 30px;
 
 }
-button{
+
+button {
     width: 110px;
     height: 30px;
     border-radius: 30px;
     border-color: #1E3932;
     cursor: pointer;
-    background-color:  transparent;
+    background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
     color: #1E3932;
     transition: 300ms;
-   
+
 
 }
 
 
-button:hover{
-    
-        width: 110px;
-        height: 30px;
-        border-radius: 30px;
-        border-color: #1E3932;
-        cursor: pointer;
-        background-color:  #1E3932;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #ffff;
-        transition: 300ms;
-        box-shadow: 45px 13px 47px -24px rgba(0,0,0,0.86);
-        -webkit-box-shadow: 45px 13px 47px -24px rgba(0,0,0,0.86);
-        -moz-box-shadow: 45px 13px 47px -24px rgba(0,0,0,0.86);
+button:hover {
+
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: #1E3932;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    transition: 300ms;
+    box-shadow: 45px 13px 47px -24px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 45px 13px 47px -24px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 45px 13px 47px -24px rgba(0, 0, 0, 0.86);
 }
 
 #banner {
 
     width: 1440px;
     height: 331px;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     margin-bottom: 32px;
     text-align: center;
 }
 
 
-#destaque{
-  
+#destaque {
+
     width: 1440px;
     height: 107px;
     display: flex;
@@ -166,18 +172,19 @@ button:hover{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 
-   
- #bloco-1{
+
+#bloco-1 {
     display: flex;
     flex-direction: row;
- } 
-#propaganda_texto{
-    display: flex ;
+}
+
+#propaganda_texto {
+    display: flex;
     flex-direction: column;
     width: 720px;
     height: 420px;
@@ -190,29 +197,29 @@ button:hover{
 
 }
 
-#propaganda_imagem{
+#propaganda_imagem {
     width: 720px;
     height: 420px;
     background-color: #D9D9D9;
     margin-bottom: 32px;
 }
 
-#bloco-2{
+#bloco-2 {
     display: flex;
     flex-direction: row;
 }
 
-#propaganda_imagem1{
-   
+#propaganda_imagem1 {
+
     width: 720px;
     height: 420px;
     background-color: #D9D9D9;
     margin-bottom: 32px;
-    
+
 }
 
-#propaganda_texto1{
-    display: flex ;
+#propaganda_texto1 {
+    display: flex;
     flex-direction: column;
     width: 720px;
     height: 420px;
@@ -224,13 +231,15 @@ button:hover{
     align-items: center;
 
 }
-#bloco-3{
+
+#bloco-3 {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     margin-bottom: 39px;
 }
-#propaganda_texto2{
-    display: flex ;
+
+#propaganda_texto2 {
+    display: flex;
     flex-direction: column;
     width: 720px;
     height: 420px;
@@ -242,7 +251,7 @@ button:hover{
     align-items: center;
 }
 
-#propaganda_imagem2{
+#propaganda_imagem2 {
     width: 720px;
     height: 420px;
     background-color: #D9D9D9;
@@ -251,117 +260,175 @@ button:hover{
 
 
 
-#rodape{
+
+li {
+    margin-left: 10px;
+}
+
+#principal {
     display: flex;
     flex-direction: row;
     width: 1440px;
-    height: 70px;
-    background-color: #ffff;
-    margin-bottom: 40px;
-    align-content: stretch;
-    justify-content: center;
-    border: 1px solid blue
-}
-li{
-    margin-left: 10px ;
-}
-
-#principal{
-    display: flex;
-    flex-direction: row; 
-    width: 1909px;
-    height: 662px;
+    height: 332px;
     background-color: #ffff;
     justify-content: center;
     align-items: flex-start;
     margin-left: 10px;
     text-align: "left";
-    border:1PX solid #298a70;
     margin-bottom: 90PX;
     border-bottom: 32 px;
 
 }
 
 
-#sobre{
-width: 720px;
-height: 420px;
+#sobre {
+    width: 720px;
+    height: 420px;
 }
 
-#carreia{
-width: 720px;
-height: 420px;
+#carreia {
+    width: 720px;
+    height: 420px;
 }
-#impactosocial{
-width: 720px;
-height: 420px;
+
+#impactosocial {
+    width: 720px;
+    height: 420px;
 
 }
 
-#starbucksRewards{
-width: 720px;
-height: 420px;
+#starbucksRewards {
+    width: 720px;
+    height: 420px;
+
+
+}
+
+#imagem-principal {
+    display: flex;
+    margin-bottom: 90px;
+    padding-bottom: 90px;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+#logo-spotfy {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 160x;
+    margin-right: 10px;
+    margin-bottom: 90px;
+
+
+    width: 180px;
+    height: 150px;
+    border-radius: 90px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #070606;
+    transition: 300ms;
+    font-size: 16px;
     
-
-}
-#imagem-principal{
-    display: flex;
-   flex-direction: row;
-   margin-bottom: 900 px;
-   padding-bottom: 90px;
-   
-   
-    
 }
 
 
-#logo-spotfy{
+
+
+#logo-facebook {
     display: flex;
     flex-direction: row;
     width: 100px;
     height: 150px;
     margin-right: 30px;
     margin-bottom: 90px;
+
+    width: 110px;
+    height: 150px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    transition: 300ms;
+    font-size: 16px;
 }
 
-#logo-facebook{
+
+#logo-linkedin {
     display: flex;
     flex-direction: row;
     width: 100px;
     height: 150px;
     margin-right: 30px;
     margin-bottom: 90px;
+
+    width: 110px;
+    height: 150px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    transition: 300ms;
+    font-size: 16px;
 }
 
 
-#logo-linkedin{
+#logo-instagram {
     display: flex;
     flex-direction: row;
     width: 100px;
     height: 150px;
     margin-right: 30px;
     margin-bottom: 90px;
+
+
+
+    width: 110px;
+    height: 150px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    transition: 300ms;
+    font-size: 16px;
 }
 
 
-#logo-instagram{
+
+
+#logo-youtube {
     display: flex;
     flex-direction: row;
     width: 100px;
     height: 150px;
     margin-right: 30px;
     margin-bottom: 90px;
-}
 
-
-#logo-youtube{
-    display: flex;
-    flex-direction: row;
-    width: 100px;
+    width: 110px;
     height: 150px;
-    margin-right: 30px;
-    margin-bottom: 90px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    transition: 300ms;
+    font-size: 16px;
 }
+
+
+
 
 #logo-twitter {
     display: flex;
@@ -370,4 +437,37 @@ height: 420px;
     height: 150px;
     margin-right: 30px;
     margin-bottom: 90px;
+
+    width: 110px;
+    height: 150px;
+    border-radius: 30px;
+    border-color: #1E3932;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    transition: 300ms;
+    font-size: 16px;
+}
+
+
+li {
+    margin-left: 10px;
+}
+
+
+#texto-final{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 332px;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    text-align: "left";
+    margin-bottom: 90PX;
+    border-bottom: 32 px;
+
+
 }
