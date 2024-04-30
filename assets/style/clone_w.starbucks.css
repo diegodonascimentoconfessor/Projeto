@@ -665,8 +665,8 @@ li {
 #menu {
     display: flex;
     flex-direction: column-reverse;
-     width: 720px;
-     height:  330;
+     width: 420px;
+     height:  100px;
      text-align: center;
      justify-content: space-between;
 
@@ -675,8 +675,8 @@ li {
  .imagem-banner {
      display: flex;
      flex-direction: column;
-     width: 720px;
-     height: 420px;
+     width: 420px;
+     height: 100px;
      background-color: #ffff;
      margin-bottom: 32px;
      text-align: COLUMN;
@@ -764,8 +764,8 @@ li {
  #propaganda_texto {
      display: flex;
      flex-direction: column;
-     width: 720px;
-     height: 420px;
+     width: 420px;
+     height: 100px;
      background-color: #D4E9E2;
      margin-bottom: 50px;
      align-items: center;
@@ -778,17 +778,17 @@ li {
  #propaganda_imagem {
      display: flex;
      flex-direction: column;
-     width: 720px;
-     height: 420px;
-     background-color: #D9D9D9;
+     width: 420px;
+     height: 100px;
+     background-color: #ffff;
      margin-bottom: 32px;
  }
 
  #principal {
      display: flex;
      flex-direction: column;
-     width: 720px;
-     height: 420px;
+     width: 420px;
+     height: 100px;
      background-color: #ffff;
      justify-content: COLUMN;
      align-items: flex-start;
@@ -803,6 +803,7 @@ li {
 
  #imagem-principal {
      display: flex;
+     flex-direction: column;
      margin-bottom: 90px;
      padding-bottom: 90px;
      align-content: space-around;
@@ -815,7 +816,7 @@ li {
  #texto-final {
      display: flex;
      flex-direction: column;
-     width: 720px;
+     width: 420px;
      height: 420px;
      background-color: #ffff;
      justify-content: center;
