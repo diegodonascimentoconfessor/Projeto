@@ -687,7 +687,7 @@ li {
  #destaque {
      display: flex;
      flex-direction: column;
-     width: 720px;
+     width: 420px;
      height: 100px;
      display: flex;
      flex-direction: column;
@@ -703,7 +703,7 @@ li {
  #menu-esquerda {
      display: flex;
      flex-direction: column;
-     width: 720px;
+     width: 420px;
      height: 100px;
      align-items: center;
 
@@ -714,7 +714,7 @@ li {
  #menu-direita {
      display: flex;
      flex-direction: column;
-     width: 720px;
+     width: 420px;
      height: 100px;
      align-items: center;
      justify-content: flex-end;
@@ -806,9 +806,9 @@ li {
      margin-bottom: 90px;
      padding-bottom: 90px;
      align-content: space-around;
-     align-items: center;
      flex-direction: row;
      flex-direction: column;
+     
  }
 
 
