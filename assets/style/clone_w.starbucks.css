@@ -1,3 +1,26 @@
+
+body {
+   display: flex;
+   flex-direction: row;
+   
+   
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
 body {
     background-color: #ffff;
     display: flex;
@@ -6,6 +29,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
 
 .imagem-banner {
     display: flex;
@@ -481,6 +523,13 @@ li {
     align-items: center;
     justify-content: flex-start;
 }
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){
     #menu {
