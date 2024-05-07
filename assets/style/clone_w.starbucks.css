@@ -2,22 +2,39 @@
 body {
    display: flex;
    flex-direction: row;
-   
-   
     background-color: #ffffff;
     color: #000000;
 }
 
 .dark-mode {
+    display: flex;
     background-color: #222222;
     color: #ffffff;
 }
 
+#botao-modoescuro{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 
 
 
+p {
+    font-size: 1;
+}
 
 
+#aumentarTexto {
+    font-size: 20px; 
+}
 
 
 
@@ -34,6 +51,7 @@ body {
     font-family: "Sevillana", cursive;
     font-weight: 400;
     font-style: normal;
+    color: #1E3932;
   }
   
 
@@ -158,6 +176,7 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     color: #1E3932;
     font-weight: 800;
+    
 }
 
 #logo-historia {
@@ -177,7 +196,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     color: #1E3932;
     transition: 300ms;
-
+    font-size: 20px;
 
 }
 
@@ -196,6 +215,7 @@ button:hover {
     box-shadow: 45px 13px 47px -24px rgba(0, 0, 0, 0.86);
     -webkit-box-shadow: 45px 13px 47px -24px rgba(0, 0, 0, 0.86);
     -moz-box-shadow: 45px 13px 47px -24px rgba(0, 0, 0, 0.86);
+    font-size: 20px;
 }
 
 #banner {
@@ -241,6 +261,7 @@ button:hover {
     padding-left: 20px;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 
 }
 
@@ -276,6 +297,7 @@ button:hover {
     padding-left: 20px;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 
 }
 
