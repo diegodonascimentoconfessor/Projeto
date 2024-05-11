@@ -17,13 +17,14 @@ body {
     flex-direction: row;
 }
 
-.container{
+.container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
+    align-items: flex-end; /* Alinha os itens à direita */
+    justify-content: flex-start; /* Alinha os itens ao topo */
+    align-content: flex-end; /* Ajusta o alinhamento do conteúdo caso haja várias linhas */
 }
+
 
 
 
@@ -159,6 +160,18 @@ a:hover {
     transition: 300ms;
 
 }
+
+#menu-acessibilidade{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1320px;
+}
+
+
+
+
+
+
 
 #menu-direita {
     display: flex;
